@@ -1,0 +1,21 @@
+Please enter T_{a_b}:
+Please enter T_{b_c}:
+T_{a_b}: deg: 90 x: 0 y: 1
+T_{b_a}: deg: -90 x: -1 y: -6.12323e-17
+T_{b_c}: deg: 180 x: 1 y: 0
+T_{c_b}: deg: -180 x: 1 y: 1.22465e-16
+T_{a_c}: deg: 90 x: 6.12323e-17 y: 2
+T_{c_a}: deg: -90 x: 2 y: 3.06162e-16
+Please enter p_a:
+p_a: [1 1]
+p_b: [0 -1]
+p_c: [3 -1]
+Please enter v_b:
+v_bhat: [0.707107 0.707107]
+v_a: [-1 1]
+v_b: [1 1]
+v_c: [-1 -1]
+Please enter tw_b:
+V_a: [1 1.11022e-16 1]
+V_b: [1 1 1]
+V_c: [1 -1 -2]

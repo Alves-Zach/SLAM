@@ -1,0 +1,16 @@
+/**:
+  ros__parameters:
+    body_id: "green/base_footprint"         #The name of the body frame
+    odom_id: "odom"                   #The name of the odom frame
+    input_noise: 0.025
+    slip_fraction: 0.025
+    robot_params:
+      left_wheel_joint: "wheel_left_joint"   #The name of the left wheel joint
+      right_wheel_joint: "wheel_right_joint" #The name of the right wheel joint
+      wheel_radius: 0.033               #The radius of the wheels (see: Turtlebot3 Specifications)
+      track_width: 0.16                 #The distance between the wheels (see: Turtlebot3 Specifications)
+      motor_cmd_max: 265.0              #The motors are provided commands in the interval [-motor_cmd_max, motor_cmd_max]
+      motor_cmd_per_rad_sec: 0.024      #Each motor command unit (mcu) is 0.024 rad/sec (i.e., 1 mcu = 0.024 rad/sec)
+      encoder_ticks_per_rad: 651.89     #The number of encoder ticks per radian. One revolution of the wheel is 2^12 ticks because it is a 12-bit encoder. (i.e. $2^12 \mathrm{ticks} = 2 Π \mathrm{rad})
+      collision_radius: 0.11            #Set this to be 0.11. This is some simplified geometry used for collision detection
+      lidar_noise: 0.025

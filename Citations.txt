@@ -1,0 +1,5 @@
+Colaborated with:
+Ishani Narwankar, Courtey Smith, Kassidy Shedd, Kyle Wang, Stella Yu
+
+Citations:
+[1]: Nick Morales git repo: https://github.com/ngmor/turtlebot3-ekf-slam/blob/main/nuturtle_control/CMakeLists.txt

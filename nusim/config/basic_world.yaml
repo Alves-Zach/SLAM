@@ -1,0 +1,11 @@
+nusim:
+    ros__parameters:
+        x0: 0.0 #x0: -0.5 value Matt gave us
+        y0: 0.0 #y0: 0.7 value Matt gave us
+        theta0: 0.0 #theta0: 1.28 value Matt gave us
+        arena_x_length: 10.0
+        arena_y_length: 10.0
+        obsticles/x: [1.0, 0.0, -1.0, 0.0] #[-0.5, 0.8, 1.4, 1.7, -1.0]
+        obsticles/y: [0.0, 1.0, 0.0, -1.0] #[-0.7, -0.8, 0.8, 0.0, 0.0]
+        obsticles/r: 0.15 # 0.038 # Value Matt gave us
+        basic_sensor_variance: 0.025
